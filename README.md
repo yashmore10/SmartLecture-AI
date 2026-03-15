@@ -1,16 +1,14 @@
-# smart_lecture
+# SmartLecture AI
 
-A new Flutter project.
+An AI-powered Flutter app that records lectures, transcribes them, and allows students to ask questions about the lecture using AI.
 
-## Getting Started
+## Features
+- Lecture recording
+- AI transcription
+- AI Q&A chatbot
+- Supabase backend
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech Stack
+Flutter
+Supabase
+Groq AI
