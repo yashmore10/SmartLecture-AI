@@ -1,97 +1,72 @@
-Smart Lecture
+# 🎓 Smart Lecture
 
-Smart Lecture is a mobile app built with Flutter that helps students interact with their lectures more effectively. Instead of scrolling through long recordings or notes, the app lets users record lectures, generate transcripts, and ask questions about the lecture using AI.
+![Flutter](https://img.shields.io/badge/Flutter-Mobile%20App-blue?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-Language-blue?logo=dart)
+![AI](https://img.shields.io/badge/AI-Powered-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
 
-The idea is simple: once a lecture is recorded and processed, you can chat with the lecture to clarify concepts or quickly find information.
+**Smart Lecture** is a Flutter-based mobile app designed to make lecture recordings more useful.  
+Instead of rewatching long recordings or searching through notes, users can **record lectures, review notes, and ask questions about the lecture using AI**.
 
-Features
+The goal is to make lectures **interactive and searchable** rather than just static recordings.
 
-Lecture Recording
+---
+
+# ✨ Features
+
+### 🎤 Lecture Recording
 Record lectures directly inside the app.
 
-Transcript-based Q&A
-Ask questions about a lecture and get contextual answers from the transcript.
+### 💬 AI Q&A
+Ask questions related to the lecture and receive contextual answers based on the lecture content.
 
-Lecture Notes
-View and review generated notes for each lecture.
+### 📝 Lecture Notes
+View notes generated from the lecture for quick revision.
 
-AI Chat Interface
-A chat-style interface to interact with the lecture content.
+### 📚 Lecture Management
+Each lecture is organized separately so it’s easy to revisit previous recordings.
 
-Lecture Management
-Each lecture is stored separately, making it easy to navigate between recordings.
+### 📱 Simple Mobile UI
+Built with Flutter using a clean and responsive interface.
 
-Tech Stack
+---
 
-Frontend
+# 🛠 Tech Stack
 
-Flutter
+### Frontend
+- Flutter
+- Dart
+- Material Design
 
-Dart
+### Services
+- AI API integration
+- Audio recording service
+- Local storage handling
 
-Material UI
+---
 
-Backend / Services
-
-AI API integration
-
-Local storage handling
-
-Audio recording service
-
-Project Structure
+# 📂 Project Structure
 lib/
 │
 ├── models/
-│   ├── chat_messages.dart
-│   └── lecture.dart
+│ ├── chat_messages.dart
+│ └── lecture.dart
 │
 ├── screens/
-│   ├── chat_screen.dart
-│   ├── lecture_detail_screen.dart
-│   ├── notes_screen.dart
-│   └── recording_screen.dart
+│ ├── chat_screen.dart
+│ ├── lecture_detail_screen.dart
+│ ├── notes_screen.dart
+│ └── recording_screen.dart
 │
 ├── services/
-│   ├── ai_service.dart
-│   ├── audio_service.dart
-│   └── storage_service.dart
+│ ├── ai_service.dart
+│ ├── audio_service.dart
+│ └── storage_service.dart
 │
 └── main.dart
-How it Works
 
-A lecture is recorded through the app.
+**models** → Data models used across the app  
+**screens** → UI screens for recording, notes, and AI chat  
+**services** → Business logic like audio recording and AI interaction
 
-The audio is processed and linked with a transcript.
-
-The transcript is used as context for the AI service.
-
-Users can ask questions in the chat screen and get answers based on the lecture content.
-
-Running the Project
-
-Clone the repository:
-
-git clone https://github.com/yourusername/smart-lecture.git
-cd smart-lecture
-
-Install dependencies:
-
-flutter pub get
-
-Run the app:
-
-flutter run
-Future Improvements
-
-Some ideas for future iterations:
-
-Lecture summarization
-
-Search within transcripts
-
-Highlight key concepts automatically
-
-Export notes as PDF
-
-Cloud sync for lectures
+---
