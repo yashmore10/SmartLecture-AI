@@ -46,24 +46,6 @@ Built with Flutter using a clean and responsive interface.
 ---
 
 # 📂 Project Structure
-lib/
-│
-├── models/
-│ ├── chat_messages.dart
-│ └── lecture.dart
-│
-├── screens/
-│ ├── chat_screen.dart
-│ ├── lecture_detail_screen.dart
-│ ├── notes_screen.dart
-│ └── recording_screen.dart
-│
-├── services/
-│ ├── ai_service.dart
-│ ├── audio_service.dart
-│ └── storage_service.dart
-│
-└── main.dart
 
 **models** → Data models used across the app  
 **screens** → UI screens for recording, notes, and AI chat  
